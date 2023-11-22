@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+    <link rel="stylesheet" type="text/css" href="studinfostyle.css">
+</head>
+<body>
+    <h1 class="header">LORD IMMANUEL INSTITUTION FOUNDATION INC.</h1>
+    <div class ="progressbar_container">
+        <div class="progressbar">
+            <div class="progress" id="progress"></div>
+            <div class="progress-step progress-step-active" data-title="Personal Information"></div>
+            <div class="progress-step" data-title="Create Username and Password"></div>
+            <div class="progress-step" data-title="Validate Details"></div>
+            <div class="progress-step" data-title="Finish"></div>
+        </div>
+    </div>
+    </div>
+        </div>
+    <div class="container">
+        <form action="studinfo_connect.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="course">Required Fields:</label>
+                    <div class="radio-group">
+                        <label for="abm">
+                            <input type="radio" name="course" value="ABM" id="abm"> ABM
+                        </label>
+                        <label for="humms">
+                            <input type="radio" name="course" value="HUMMS" id="humms"> HUMMS
+                        </label>
+                        <label for="stem">
+                            <input type="radio" name="course" value="STEM" id="stem"> STEM
+                        </label>
+                    </div>
+            </div>
+            <div class="horizontal-form-group">
+            <div class="form-group">
+                <label for="year">Year Level:</label>
+                <select id="year" name="year">
+                    <option value="g11">Grade 11</option>
+                    <option value="g12">Grade 12</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="sy">School Year:</label>
+                <select id="sy" name="sy">
+                    <option value="2023-2024">2023-2024</option>
+                    <option value="2024-2025">2024-2025</option>
+                </select>
+            </div>
+            </div>
+            <div class="horizontal-form-group">
+            <div class="form-group">
+                <label for="admit">Admit Type:</label>
+                <select id="admit" name="admit">
+                    <option value="NewStudent">New Student</option>
+                    <option value="OldStudent">Old Student</option>
+                    <option value="Transferee">Transferee</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="term">Term:</label>
+                <select id="term" name="term">
+                    <option value="1stTerm">1st Term</option>
+                    <option value="2ndTerm">2nd Term</option>
+                </select>
+            </div>
+            </div>
+            <br>
+            <div class="divider">
+                <hr class="form-divider">
+         <br>       
+        <div class="form-group">
+        <h1>Student Information</h1>
+        <br>
+            <div class="name-form-group">
+                <div class="name-group">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+                <div class="name-group">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+                <div class="name-group">
+                <label for="mname">Middle Name:</label>
+                <input type="text" id="mname" name="mname"required>
+            </div>
+                <div class="name-group">
+                <label for="sname">Suffix Name:</label>
+                <input type="text" id="sname" name="sname">
+            </div>
+        </div>
+
+            <div class="horizontal-form-group">
+                <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+                <div class="form-group">
+                <label for="status">Civil Status:</label>
+                <select id="status" name="status" required>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+                <div class="form-group">
+                <label for="nationality">Nationality:</label>
+                <input type="text" id="nationality" name="nationality" required>
+            </div>
+                <div class="form-group">
+                <label for="religion">Religion:</label>
+                <input type="text" id="religion" name="religion" required>
+            </div>
+            </div>
+
+            <div class="horizontal-form-group">
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+                <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+                <div class="form-group">
+                <label for="pob">Place of Birth:</label>
+                <input type="text" id="pob" name="pob" required>
+            </div>
+                <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            </div>
+            
+            <div class="horizontal-form-group">
+                <div class="form-group">
+                <label for="address">Home Address:</label>
+                <input type="text" id="address" name="address" class="home-address" required>
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile Number:</label>
+                <input type="text" inputmode="numeric" id="mobile" name="mobile" placeholder="+63 xxx xxx xxxx">
+            </div>
+        </div>
+        </div>
+        
+        <hr class="form-divider">
+
+        <br>
+
+        <div class="form-section">
+        <h1>Parent/Guardian Information</h1>
+        <br>
+        <h2>Father's Information</h2>
+        <div class="name-form-group">
+            <div class="name-group">
+                <label for="father_fname">First Name:</label>
+                <input type="text" id="father_fname" name="father_fname">
+            </div>
+            <div class="name-group">
+                <label for="father_lname">Last Name:</label>
+                <input type="text" id="father_lname" name="father_lname">
+            </div>
+            <div class="name-group">
+                <label for="father_mname">Middle Name:</label>
+                <input type="text" id="father_mname" name="father_mname">
+            </div>
+            <div class="name-group">
+                <label for="father_sname">Suffix Name:</label>
+                <input type="text" id="father_sname" name="father_sname">
+            </div>
+        </div>
+
+        <div class="horizontal-form-group">
+            <div class="form-group">
+                <label for="father_occupation">Occupation:</label>
+                <input type="text" id="father_occupation" name="father_occupation">
+        </div>
+        <div class="form-group">
+            <label for="father_email">Email Address:</label>
+            <input type="text" id="father_email" name="father_email">
+        </div>
+        <div class="form-group">
+            <label for="father_mobile">Mobile Number:</label>
+            <input type="text" inputmode="numeric" id="father_mobile" name="father_mobile" placeholder="+63 xxx xxx xxxx">
+        </div>
+        <div class="form-group">
+            <label for="father_age">Age:</label>
+            <input type="number" id="father_age" name="father_age">
+        </div>
+        </div>
+
+        <br>
+
+        <div class="form-section">
+        <h2>Mother's Information</h2>
+        <div class="name-form-group">
+            <div class="name-group">
+                <label for="mother_fname">First Name:</label>
+                <input type="text" id="mother_fname" name="mother_fname">
+            </div>
+            <div class="name-group">
+                <label for="mother_lname">Last Name:</label>
+                <input type="text" id="mother_lname" name="mother_lname">
+            </div>
+            <div class="name-group">
+                <label for="mother_mname">Middle Name:</label>
+                <input type="text" id="mother_mname" name="mother_mname">
+            </div>
+            <div class="name-group">
+                <label for="mother_sname">Suffix Name:</label>
+                <input type="text" id="mother_sname" name="mother_sname">
+            </div>
+        </div>
+
+        <div class="horizontal-form-group">
+            <div class="form-group">
+                <label for="mother_occupation">Occupation:</label>
+                <input type="text" id="mother_occupation" name="mother_occupation">
+        </div>
+        <div class="form-group">
+            <label for="mother_email">Email Address:</label>
+            <input type="text" id="mother_email" name="mother_email">
+        </div>
+        <div class="form-group">
+            <label for="mother_mobile">Mobile Number:</label>
+            <input type="text" inputmode="numeric" id="mother_mobile" name="mother_mobile" placeholder="+63 xxx xxx xxxx">
+        </div>
+        <div class="form-group">
+            <label for="mother_age">Age:</label>
+            <input type="number" id="mother_age" name="mother_age">
+        </div>
+        </div>
+
+        <br>
+
+        <div class="form-section">
+            <h2>Guardian's Information</h2>
+            <div class="name-form-group">
+                <div class="name-group">
+                    <label for="guardian_fname">First Name:</label>
+                    <input type="text" id="guardian_fname" name="guardian_fname">
+                </div>
+                <div class="name-group">
+                    <label for="guardian_lname">Last Name:</label>
+                    <input type="text" id="guardian_lname" name="guardian_lname">
+                </div>
+                <div class="name-group">
+                    <label for="guardian_mname">Middle Name:</label>
+                    <input type="text" id="guardian_mname" name="guardian_mname">
+                </div>
+                <div class="name-group">
+                    <label for="guardian_sname">Suffix Name:</label>
+                    <input type="text" id="guardian_sname" name="guardian_sname">
+                </div>
+            </div>
+    
+            <div class="horizontal-form-group">
+            <div class="form-group">
+                <label for="guardian_occupation">Occupation:</label>
+                <input type="text" id="guardian_occupation" name="guardian_occupation">
+            </div>
+            <div class="form-group">
+                <label for="guardian_email">Email Address:</label>
+                <input type="text" id="guardian_email" name="guardian_email">
+            </div>
+            <div class="form-group">
+                <label for="guardian_mobile">Mobile Number:</label>
+                <input type="text" inputmode="numeric" id="guardian_mobile" name="guardian_mobile" placeholder="+63 xxx xxx xxxx">
+            </div>
+            <div class="form-group">
+                <label for="guardian_age">Age:</label>
+                <input type="number" id="guardian_age" name="guardian_age">
+            </div>
+            </div>
+
+            <hr class="form-divider">
+
+            <br>
+
+        <div class="form-section">
+            <h1>Educational Background</h1>
+            <br>
+            <div class="horizontal-form-group">
+            <div class="form-group">
+                <label for="elementary">Elementary:</label>
+                <input type="text" id="elementary" name="elementary">
+            </div>
+            <div class="form-group">
+                <label for="school_address1">School Address:</label>
+                <input type="text" id="school_address1" name="school_address1">
+            </div>
+            <div class="form-group">
+                <label for="year_graduated1">Year Graduated:</label>
+                <input type="text" id="year_graduated1" name="year_graduated1">
+            </div>
+            </div>
+            <div class="horizontal-form-group">
+                <div class="form-group">
+                    <label for="juniorhigh">Junior High:</label>
+                    <input type="text" id="juniorhigh" name="juniorhigh">
+                </div>
+                <div class="form-group">
+                    <label for="school_address2">School Address:</label>
+                    <input type="text" id="school_address2" name="school_address2">
+                </div>
+                <div class="form-group">
+                    <label for="year_graduated2">Year Graduated:</label>
+                    <input type="text" id="year_graduated2" name="year_graduated2">
+                </div>
+            </div>
+            <br>
+        
+            <div class="form-section">
+                <h2>Requirements:</h2>
+                <div class="form-group">
+                    <label for="photo">1x1 Picture:</label>
+                    <input type="file" id="photo" name="photo" accept="image/*">
+                </div>
+                <div class="form-group">
+                    <label for="form_137">Upload Form 137:</label>
+                    <input type="file" id="form_137" name="form_137" accept="image/*">
+                </div>
+            </div>
+            <button class="next-button"onclick="goToNextPage()">Next</button>
+        </form>
+    </div>
+</body>
+<script src="studinfo_script.js"></script>
+</html>
