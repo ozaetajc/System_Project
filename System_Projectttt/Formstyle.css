@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    width: 7%;
+    height: auto;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -10px;
+} 
+
+h1.reg-form{
+    text-align:center;
+    color:#fff;
+}
+
+body{
+    background-image:linear-gradient(to right, #3291A1 10%, #004AAD 100%);
+}
+
+.form_container{
+width: 100%;
+max-width:1100px;
+min-height:400px;
+margin:auto;
+padding: 30px;
+background-color: #fff;
+border-radius: 3px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.container{
+    text-align: center;
+    color:#1A5875;
+}
+.reg_container{
+    color:#1A5875;
+}
+
+.printbutton{
+    background-color: #3291A1;
+    color: #fff;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 950px;
+}
+
+.printbutton:hover{
+    background-color: #29717D;
+}
+.space{
+    margin:60px; 
+}
+
+.logoutbutton{
+    background-color: #3291A1;
+    color: #fff;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 400px;
+}
+
+.logoutbutton:hover{
+    background-color: #29717D;
+}
+
