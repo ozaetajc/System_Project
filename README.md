@@ -12,3 +12,5 @@
 ![admin login](https://github.com/ozaetajc/System_Project/assets/118589441/f7edef1e-3156-4438-9ddd-1cf56e035d2f)
 ![Dashboard](https://github.com/ozaetajc/System_Project/assets/118589441/f5c24f7b-9cf0-4957-a151-7ac5d178bae1)
 ![list of students](https://github.com/ozaetajc/System_Project/assets/118589441/76d5cec5-e028-4ec4-a8db-b6a1623a5831)
+
+- markdown: 
