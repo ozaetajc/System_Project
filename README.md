@@ -21,7 +21,7 @@ IT 314 - Web Systems and Technology <br>
 BSIT 3107
 <br>
 
-**bold text**Description:  
+Description: **bold text**
      This project aims to provide a user-friendly and streamlined enrollment system that will help the students to enroll and provide the administrators monitor student enrollees at Lord Immanuel Institute Foundation Inc. Specifically, here are the key objectives of this Enrollment System: <br>
      1) To collect and store accurate student information, including personal details, academic records, and contact information. <br>
      2) To reduce manual data entry and paper works for students and school administrators. <br>
@@ -29,7 +29,7 @@ BSIT 3107
 
 <br>
 
-**bold text**SDG
+SDG **bold text**
 <br>
 The proposed system is in line with Sustainable Development Goals (SDG) 8 (8.2) which promotes decent work and economic growth. To promote a sustained, inclusive employment and decent work for all. The system aims to achieve higher levels of economic productivity by focusing on high-value-added and labor-intensive sectors. And by applying this plan, the enrollment system could serve an important role in promoting sustainable development and achieving SDG 8. 
 
