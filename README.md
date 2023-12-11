@@ -39,10 +39,10 @@ Members and their Contributions
 <br>
 The following are the members of the group alongside their specific percentage of contribution to the project: 
 <br>
-Añonuevo, Sheena Joy M. - 100/100 <br>
-Guerra, Rhiz Anne B. - 40/100  <br>
-Macatangay, Jonalyn V. - 100/100 <br>
-Ozaeta, John Carlo C. - 100/100  <br>
+Añonuevo, Sheena Joy M. - 90/100 <br>
+Guerra, Rhiz Anne B. - 30/100  <br>
+Macatangay, Jonalyn V. - 90/100 <br>
+Ozaeta, John Carlo C. - 50/100  <br>
 
 This is the breakdown of the percentage used: <br>
 50% = Documentation <br>
@@ -50,10 +50,10 @@ This is the breakdown of the percentage used: <br>
 
 <br>
 <br>
-100% = Sheena( 50% system, 50% documentation)<br>
-40% = Rhiz( 10% system, 30% documentation)<br>
-100% = Jonalyn( 50% system, 50% documentation)<br>
-100% = John Carlo( 50% system, 50% documentation)<br>
+90% = Sheena( 40% system, 50% documentation)<br>
+30% = Rhiz( 30% documentation)<br>
+90% = Jonalyn( 50% system, 40% documentation)<br>
+50% = John Carlo( 50% system)<br>
 
 TECHNOLOGY USED<br>
 Software: Web Browsers - Google Chrome <br>
