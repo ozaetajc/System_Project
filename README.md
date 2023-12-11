@@ -47,3 +47,22 @@ Ozaeta, John Carlo C. - 100/100  <br>
 This is the breakdown of the percentage used: <br>
 50% = Documentation <br>
 50% = System
+
+<br>
+<br>
+100% = Sheena( 50% system, 50% documentation)<br>
+40% = Rhiz( 10% system, 30% documentation)<br>
+100% = Jonalyn( 50% system, 50% documentation)<br>
+100% = John Carlo( 50% system, 50% documentation)<br>
+
+TECHNOLOGY USED<br>
+Software: Web Browsers - Google Chrome <br>
+IDE: Visual Studio - for HTML, CSS, JAVASCRIPT and Php<br>
+Operating system: Windows<br>
+Back-End Server: XAMPP server PHPmyAdmin<br>
+Hardware: Desktop Computer and Laptop<br>
+<br>
+ADMIN <br>
+username: Admin<br>
+pass: Admin00
+
