@@ -54,7 +54,7 @@ This is the breakdown of the percentage used: <br>
 30% = Rhiz( 30% documentation)<br>
 90% = Jonalyn( 50% system, 40% documentation)<br>
 50% = John Carlo( 50% system)<br>
-
+<br>
 TECHNOLOGY USED<br>
 Software: Web Browsers - Google Chrome <br>
 IDE: Visual Studio - for HTML, CSS, JAVASCRIPT and Php<br>
