@@ -31,7 +31,7 @@ Description:
 
 SDG 
 <br>
-The proposed system is in line with Sustainable Development Goals (SDG) 8 (8.2) which promotes decent work and economic growth. To promote a sustained, inclusive employment and decent work for all. The system aims to achieve higher levels of economic productivity by focusing on high-value-added and labor-intensive sectors. And by applying this plan, the enrollment system could serve an important role in promoting sustainable development and achieving SDG 8. 
+The Lord Immanuel Institute Foundation Inc. is a school located in Lobo Batangas. We know that other schools are already using an electronic enrollment system. But the LIIFI school currently uses a manual system in recording and retrieving students' information. Students also get confused in the confirmation of the enrollment, some of them attend classes not knowing that they are not enrolled. Therefore, proponents aim to improve the old manual system of the LIIFI by proposing a computer-based enrollment system to provide a solution to the problems that they encountered in operating its manual enrollment.The proposed system is in line with Sustainable Development Goals (SDG) 8 (8.2) which promotes decent work and economic growth. To promote a sustained, inclusive employment and decent work for all.This project aims to help the client by providing them a platform that will streamline the process of enrollment system. The web-based enrollment system will eliminate the need for physical enrollment making it convenient for the students to enroll anywhere as long as they have an internet connection.The system aims to achieve higher levels of economic productivity by focusing on high-value-added and labor-intensive sectors. And by applying this plan, the enrollment system could serve an important role in promoting sustainable development and achieving SDG 8. 
 
 <br> 
 
@@ -55,7 +55,7 @@ This is the breakdown of the percentage used: <br>
 12% = Rhiz( 12% documentation)<br>
 21% = John Carlo( 21% system)<br>
 <br>
-**TECHNOLOGY USED<br>**
+TECHNOLOGY USED<br>
 Software: Web Browsers - Google Chrome <br>
 IDE: Visual Studio - for HTML, CSS, JAVASCRIPT and Php<br>
 Operating system: Windows<br>
