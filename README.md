@@ -53,6 +53,7 @@ This is the breakdown of the percentage used: <br>
 50% = Documentation <br>
 50% = System
 <br>
+<br>
 38% = Jonalyn( 30% system, 8% documentation)<br>
 29% = Sheena( 5% system, 24% documentation)<br>
 12% = Rhiz( 12% documentation)<br>
